@@ -1,1 +1,205 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+
+html, body {
+  overflow-x: hidden;
+  background: #081b29;
+  color: #ededed;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+header .logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ededed;
+}
+header .navbar a {
+  font-size: 1.7rem;
+  color: #ededed;
+  font-weight: 500;
+  margin-left: 3.5rem;
+  transition: 0.3s;
+  text-transform: capitalize;
+  position: relative;
+}
+header .navbar a:hover {
+  color: #00abf0;
+}
+header .navbar a:hover .line {
+  transform: scale(1);
+}
+header .navbar .active {
+  color: #00abf0;
+}
+header .navbar .active .line {
+  transform: scale(1);
+}
+header .navbar .line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 3px;
+  border-radius: 20px;
+  background-color: #00abf0;
+  transform: scale(0);
+  transition: 0.7s;
+}
+header #btn-menu {
+  font-size: 3.6rem;
+  color: #ededed;
+  cursor: pointer;
+  display: none;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 9%;
+}
+.home .home-content {
+  max-width: 50rem;
+}
+.home .home-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.home .home-content .animate-text {
+  position: relative;
+  width: 32.8rem;
+}
+.home .home-content .animate-text h3 {
+  font-size: 3.2rem;
+  font-size: 700;
+  color: transparent;
+  -webkit-text-stroke: 0.7px #00abf0;
+}
+.home .home-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 4rem;
+}
+.home .home-content .btn-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 34.5rem;
+  height: 5rem;
+}
+.home .home-content .btn-box .btn {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 100%;
+  background-color: #00abf0;
+  border: 0.2rem solid #00abf0;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: #081b29;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.home .home-content .btn-box .btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+.home .home-content .btn-box .btn:hover {
+  color: #00abf0;
+}
+.home .home-content .btn-box .btn:hover::before {
+  width: 100%;
+}
+.home .home-content .btn-box .btn:nth-child(2) {
+  background: transparent;
+  color: #00abf0;
+}
+.home .home-content .btn-box .btn:nth-child(2)::before {
+  background: #00abf0;
+}
+.home .home-content .btn-box .btn:nth-child(2):hover {
+  color: #081b29;
+}
+.home .social-icon {
+  position: absolute;
+  bottom: 4rem;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+.home .social-icon a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 0.2rem solid #00abf0;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #00abf0;
+  z-index: 1;
+  overflow: hidden;
+}
+.home .social-icon a i {
+  color: #00abf0;
+}
+.home .social-icon a:hover i {
+  color: #081b29;
+}
+.home .social-icon a:hover::before {
+  width: 100%;
+}
+.home .social-icon a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00abf0;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}/*# sourceMappingURL=style.css.map */
