@@ -7,17 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohit Varshney | Frontend Developer</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
 </head>
 
 <body>
     <!-- header design -->
-    <header>
+    <header id="myHeader">
         <a href="" class="logo">Portfolio.</a>
         <div class="bx bx-menu" id="btn-menu"></div>
-        <nav class="navbar">
+        <nav class="nav-links">
             <a href="#home" class="active"><span class="line"></span>home</a>
             <a href="#about"><span class="line"></span>about</a>
             <a href="#education"><span class="line"></span>education</a>
@@ -27,24 +27,77 @@
     </header>
     <main>
         <section class="home" id="home">
-            <div class="home-content">
-                <h1>Hi, I'm <span> Mohit Varshney</span> </h1>
-                <div class="animate-text">
-                    <h3>Frontend Developer</h3>
+            <div class="container h-100">
+                <div class="row h-100 d-flex align-items-center">
+                    <div class="col-md-6 d-flex text-center text-md-start">
+                        <div class="home-content">
+                            <h1>Hi, I'm <span> Mohit Varshney</span> </h1>
+                            <div class="animate-text">
+                                <h3>Frontend Developer</h3>
+                            </div>
+                            <p>Creative Frontend Developer with 2 years+ of experiences using HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. Skilled in creating user-friendly web applications, collaborating with teams, and delivering high-quality, responsive designs. Strong problem-solving abilities, attention to detail, and a passion for intuitive user experiences.</p>
+                            <div class="btn-box">
+                                <a href="#" class="btn">Hire Me</a>
+                                <a href="#" class="btn">Let's Talk</a>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <img src="assets/images/background.png" alt="" class="intro-banner">
+                    </div>
                 </div>
-                <p>Creative Frontend Developer with 2 years of experiences using HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. Skilled in creating user-friendly web applications, collaborating with teams, and delivering high-quality, responsive designs. Strong problem-solving abilities, attention to detail, and a passion for intuitive user experiences.</p>
-                <div class="btn-box">
-                    <a href="#" class="btn">Hire Me</a>
-                    <a href="#" class="btn">Let's Talk</a>
-                </div>
-                <div class="social-icon">
-                    <a href="#"><i class='bx bxl-github' ></i></a>
-                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <div class="row mt-4">
+                    <div class="col">
+                        <div class="social-icon">
+                            <a href="#"><i class='bx bxl-github' ></i></a>
+                            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
+        <section class="about" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="heading">About <span>Me</span></h2>
+                        <div class="about-img">
+                <img src="assets/images/my-pic.jpeg" alt="">
+                <span class="circle-spin"></span>
+                        </div>
+                        <div class="about-content">
+                            <h3>Frontend Developer</h3>
+                            <p>Greetings! I am a Frontend Maestro, wielding the transformative powers of HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. With 2 years of captivating experiences, I paint digital masterpieces that transcend the boundaries of imagination. Breathing life into pixels, I architect enchanting user interfaces that dance with responsive elegance. From crafting immersive storytelling to orchestrating seamless interactions, I blend technology and artistry to sculpt unforgettable digital experiences. With an insatiable curiosity and a flair for innovation, I embark on a never-ending quest to push the boundaries of frontend development, shaping the future of the digital realm, one stroke of code at a time.</p>
+                            <div class="btn-box">
+                                <a href="#" class="btn">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="heading">My<span>Journey</span></h2>
+                        <div class="education-row">
+                            <h3 class="title">Education</h3>
+                            <div class="education-box">
+                                <div class="education-content">
+                                    <div class="content">
+                                        <div class="year"><i class='bx bxs-calendar'></i>2015-2018</div>
+                                        <h3>Bachelor Degree - University</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas expedita porro excepturi qui, deleniti, natus distinctio perspiciatis repellat perferendis cum, doloribus voluptatum inventore officia.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
   
