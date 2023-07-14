@@ -112,7 +112,7 @@ header{
 }
 
 section{
-    padding: 50px 0;
+    padding: 70px 0 50px;
     min-height: 100vh;
 }
 
@@ -363,6 +363,68 @@ section{
         }
         .btn-box{
             justify-content: center;
+        }
+    }
+}
+
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    margin-bottom: 5rem;
+    .education-col{
+        padding: 2rem;
+        .title{
+            font-size: 2rem;
+            margin: 0 0 1.5rem 2rem;
+        }
+        .education-box{
+            border-left: .2rem solid $primary-color;
+            .education-content{
+                position: relative;
+                padding-left: 2rem;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -1.1rem;
+                    width: 2rem;
+                    height: 2rem;
+                    background-color: $primary-color;
+                    border-radius: 50%;
+                }
+                .content{
+                    position: relative;
+                    padding: 1.5rem;
+                    border: .2rem solid $primary-color;
+                    border-radius: .6rem;
+                    margin-bottom: 2rem;
+                    .year{
+                        font-size: 1.5rem;
+                        color: $primary-color;
+                        padding-bottom: .5rem;
+                        i{
+                            padding-right: .5rem;
+                        }
+                    }
+                    h3{
+                        font-size: 2rem;
+                        span{
+                            font-size: 1rem;
+                            color: $primary-color; 
+                        }
+                    }
+                    li{
+                        font-size: 1.3rem;
+                        padding-top: .5rem;
+                        &::marker{
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
         }
     }
 }

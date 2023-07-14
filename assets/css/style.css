@@ -101,7 +101,7 @@ header #btn-menu {
 }
 
 section {
-  padding: 50px 0;
+  padding: 70px 0 50px;
   min-height: 100vh;
 }
 
@@ -350,4 +350,66 @@ section {
 }
 .about .about-content .btn-box {
   justify-content: center;
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: auto;
+  margin-bottom: 5rem;
+}
+.education .education-col {
+  padding: 2rem;
+}
+.education .education-col .title {
+  font-size: 2rem;
+  margin: 0 0 1.5rem 2rem;
+}
+.education .education-col .education-box {
+  border-left: 0.2rem solid #00abf0;
+}
+.education .education-col .education-box .education-content {
+  position: relative;
+  padding-left: 2rem;
+}
+.education .education-col .education-box .education-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1.1rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #00abf0;
+  border-radius: 50%;
+}
+.education .education-col .education-box .education-content .content {
+  position: relative;
+  padding: 1.5rem;
+  border: 0.2rem solid #00abf0;
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
+}
+.education .education-col .education-box .education-content .content .year {
+  font-size: 1.5rem;
+  color: #00abf0;
+  padding-bottom: 0.5rem;
+}
+.education .education-col .education-box .education-content .content .year i {
+  padding-right: 0.5rem;
+}
+.education .education-col .education-box .education-content .content h3 {
+  font-size: 2rem;
+}
+.education .education-col .education-box .education-content .content h3 span {
+  font-size: 1rem;
+  color: #00abf0;
+}
+.education .education-col .education-box .education-content .content li {
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+}
+.education .education-col .education-box .education-content .content li::marker {
+  color: #00abf0;
 }/*# sourceMappingURL=style.css.map */
