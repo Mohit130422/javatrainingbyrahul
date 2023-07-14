@@ -390,6 +390,22 @@ section {
   border: 0.2rem solid #00abf0;
   border-radius: 0.6rem;
   margin-bottom: 2rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.education .education-col .education-box .education-content .content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #112e42;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+.education .education-col .education-box .education-content .content:hover::before {
+  width: 100%;
 }
 .education .education-col .education-box .education-content .content .year {
   font-size: 1.5rem;

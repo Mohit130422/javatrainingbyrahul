@@ -401,6 +401,24 @@ section{
                     border: .2rem solid $primary-color;
                     border-radius: .6rem;
                     margin-bottom: 2rem;
+                    overflow: hidden;
+                    z-index: 1;
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 0;
+                        height: 100%;
+                        background: $secondary-bg-color;
+                        z-index: -1;
+                        transition: .5s ease-in-out;
+                    }
+                    &:hover{
+                        &::before{
+                            width: 100%;
+                        }
+                    }
                     .year{
                         font-size: 1.5rem;
                         color: $primary-color;
