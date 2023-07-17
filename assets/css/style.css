@@ -62,13 +62,16 @@ header .nav-links a {
   position: relative;
 }
 header .nav-links a:hover {
-  color: #00abf0;
+  color: #00abf0 !important;
 }
 header .nav-links a:hover .line {
   transform: scale(1);
 }
 header .nav-links .active {
   color: #00abf0;
+}
+header .nav-links .active .line {
+  transform: scale(1);
 }
 header .nav-links .line {
   position: absolute;
@@ -173,19 +176,18 @@ section {
   padding-bottom: 6rem;
 }
 .home .home-content {
-  margin: 150px 0 0 0;
+  margin: 80px 0 0 0;
 }
 .home .home-content h1 {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   font-weight: 700;
-  line-height: 1.3;
-  color: #ededed;
+  line-height: 1.6;
 }
 .home .home-content .animate-text {
   position: relative;
 }
 .home .home-content .animate-text h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-size: 700;
   color: transparent;
   -webkit-text-stroke: 0.7px #00abf0;
@@ -428,4 +430,243 @@ section {
 }
 .education .education-col .education-box .education-content .content li::marker {
   color: #00abf0;
+}
+
+.skills {
+  min-height: auto;
+  padding-bottom: 7rem;
+  background-color: #112e42;
+}
+.skills .skills-col .title {
+  margin: 0 0 1.5rem;
+}
+.skills .skills-col .skills-box .skill-content {
+  position: relative;
+  border: 0.2rem solid #00abf0;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1.5rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.skills .skills-col .skills-box .skill-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #081b29;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+.skills .skills-col .skills-box .skill-content:hover::before {
+  width: 100%;
+}
+.skills .skills-col .skills-box .skill-content .skills-bar {
+  padding: 1rem 0;
+}
+.skills .skills-col .skills-box .skill-content .skills-bar h3 {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.skills .skills-col .skills-box .skill-content .skills-bar .bars {
+  height: 2rem;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #00abf0;
+  padding: 0.4rem;
+  margin: 1rem 0;
+}
+.skills .skills-col .skills-box .skill-content .skills-bar .bars span {
+  display: block;
+  height: 100%;
+  border-radius: 0.3rem;
+  background-color: #00abf0;
+}
+.skills .skills-col:nth-child(1) .skill-content .skills-bar:nth-child(1) span {
+  width: 90%;
+}
+.skills .skills-col:nth-child(1) .skill-content .skills-bar:nth-child(2) span {
+  width: 80%;
+}
+.skills .skills-col:nth-child(1) .skill-content .skills-bar:nth-child(3) span {
+  width: 50%;
+}
+.skills .skills-col:nth-child(1) .skill-content .skills-bar:nth-child(4) span {
+  width: 40%;
+}
+.skills .skills-col:nth-child(2) .skill-content .skills-bar:nth-child(1) span {
+  width: 90%;
+}
+.skills .skills-col:nth-child(2) .skill-content .skills-bar:nth-child(2) span {
+  width: 70%;
+}
+.skills .skills-col:nth-child(2) .skill-content .skills-bar:nth-child(3) span {
+  width: 75%;
+}
+.skills .skills-col:nth-child(2) .skill-content .skills-bar:nth-child(4) span {
+  width: 80%;
+}
+
+.contact {
+  min-height: auto;
+  padding-bottom: 7rem;
+}
+.contact form {
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact form .input-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact form .input-box .input-field {
+  position: relative;
+  width: 49%;
+  margin: 0.8rem 0;
+  overflow: hidden;
+  z-index: 1;
+}
+.contact form .input-box .input-field input, .contact form .input-box .input-field input[type=number], .contact form .input-box .input-field input[type=email] {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: #ededed;
+  background: transparent;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #00abf0;
+  z-index: 1;
+}
+.contact form .input-box .input-field input::-moz-placeholder, .contact form .input-box .input-field input[type=number]::-moz-placeholder, .contact form .input-box .input-field input[type=email]::-moz-placeholder {
+  color: #ededed;
+}
+.contact form .input-box .input-field input::placeholder, .contact form .input-box .input-field input[type=number]::placeholder, .contact form .input-box .input-field input[type=email]::placeholder {
+  color: #ededed;
+}
+.contact form .input-box .input-field input:valid ~ .focus, .contact form .input-box .input-field input[type=number]:valid ~ .focus, .contact form .input-box .input-field input[type=email]:valid ~ .focus {
+  width: 100%;
+}
+.contact form .input-box .input-field input:focus ~ .focus, .contact form .input-box .input-field input[type=number]:focus ~ .focus, .contact form .input-box .input-field input[type=email]:focus ~ .focus {
+  width: 100%;
+}
+.contact form .input-box .input-field input:focus, .contact form .input-box .input-field input[type=number]:focus, .contact form .input-box .input-field input[type=email]:focus {
+  outline: none;
+}
+.contact form .input-box .input-field .focus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #112e42;
+  border-radius: 0.6rem;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+.contact form .textarea-field {
+  position: relative;
+  display: flex;
+  margin: 0.8rem 0 2.7rem;
+  z-index: 1;
+}
+.contact form .textarea-field textarea {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: #ededed;
+  background: transparent;
+  border-radius: 0.6rem;
+  border: 0.2rem solid #00abf0;
+  resize: none;
+  z-index: 1;
+}
+.contact form .textarea-field textarea::-moz-placeholder {
+  color: #ededed;
+}
+.contact form .textarea-field textarea::placeholder {
+  color: #ededed;
+}
+.contact form .textarea-field textarea:valid ~ .focus {
+  width: 100%;
+}
+.contact form .textarea-field textarea:focus ~ .focus {
+  outline: none;
+  width: 100%;
+}
+.contact form .textarea-field textarea:focus {
+  outline: none;
+}
+.contact form .textarea-field textarea::-webkit-scrollbar {
+  width: 5px;
+}
+.contact form .textarea-field textarea::-webkit-scrollbar-track {
+  background: #112e42;
+  overflow: hidden;
+}
+.contact form .textarea-field textarea::-webkit-scrollbar-thumb {
+  background: #00abf0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact form .textarea-field .focus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #112e42;
+  border-radius: 0.6rem;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: #112e42;
+}
+.footer .footer-text p {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+.footer .footer-iconTop a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  background: #00abf0;
+  border: 0.2rem solid #00abf0;
+  border-radius: 0.6rem;
+  z-index: 1;
+  overflow: hidden;
+}
+.footer .footer-iconTop a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #112e42;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+}
+.footer .footer-iconTop a:hover::before {
+  width: 100%;
+}
+.footer .footer-iconTop a:hover i {
+  color: #00abf0;
+}
+.footer .footer-iconTop a i {
+  font-size: 2.4rem;
+  color: #081b29;
 }/*# sourceMappingURL=style.css.map */
