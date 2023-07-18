@@ -10,39 +10,41 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
     <!-- header design -->
     <header id="myHeader">
-        <a href="" class="logo">Portfolio.</a>
+        <a href="#home" class="logo"><img src="assets/images/logo.svg" alt=""></a>
         <div class="bx bx-menu" id="btn-menu"></div>
         <nav class="nav-links">
-            <a href="#home" class="active"><span class="line"></span>home</a>
+            <a href="#home" class="active-link"><span class="line"></span>home</a>
             <a href="#about"><span class="line"></span>about</a>
             <a href="#education"><span class="line"></span>education</a>
             <a href="#skills"><span class="line"></span>skills</a>
             <a href="#contact"><span class="line"></span>contacts</a>
+            <span class="active-navbar"></span>
         </nav>
     </header>
     <main>
         <section class="home" id="home">
             <div class="container h-100">
-                <div class="row h-100 d-flex align-items-center">
-                    <div class="col-md-6 d-flex text-center text-md-start">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-6 col-md-12 d-flex text-center text-md-start">
                         <div class="home-content">
                             <h1>Hi, I'm <span> Mohit Varshney</span> </h1>
                             <div class="animate-text">
-                                <h3>Frontend Developer</h3>
+                                <h3><span class="auto-type">Frontend Developer</span></h3>
                             </div>
                             <p>Creative Frontend Developer with 2 years+ of experiences using HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. Skilled in creating user-friendly web applications, collaborating with teams, and delivering high-quality, responsive designs. Strong problem-solving abilities, attention to detail, and a passion for intuitive user experiences.</p>
                             <div class="btn-box">
-                                <a href="#" class="btn">Hire Me</a>
+                                <a href="#" class="btn">Download CV</a>
                                 <a href="#" class="btn">Let's Talk</a>
                             </div>
                         </div>                        
                     </div>
-                    <div class="col-md-6 d-flex">
+                    <div class="col-lg-6 d-flex banner">
                         <img src="assets/images/background.png" alt="" class="intro-banner">
                     </div>
                 </div>
@@ -70,7 +72,7 @@
                             <h3>Frontend Developer</h3>
                             <p>Greetings! I am a Frontend Maestro, wielding the transformative powers of HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. With 2 years of captivating experiences, I paint digital masterpieces that transcend the boundaries of imagination. Breathing life into pixels, I architect enchanting user interfaces that dance with responsive elegance. From crafting immersive storytelling to orchestrating seamless interactions, I blend technology and artistry to sculpt unforgettable digital experiences. With an insatiable curiosity and a flair for innovation, I embark on a never-ending quest to push the boundaries of frontend development, shaping the future of the digital realm, one stroke of code at a time.</p>
                             <div class="btn-box">
-                                <a href="#" class="btn">Read More</a>
+                                <a href="#education" class="btn">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +83,7 @@
             <div class="container">
                 <h2 class="heading">My<span>Journey</span></h2>
                 <div class="row education-row">
-                    <div class="col-md-6 col-sm-12 education-col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 education-col">
                         <h3 class="title">Experience</h3>
                         <div class="education-box">
                             <div class="education-content">
@@ -89,6 +91,7 @@
                                     <div class="year"><i class='bx bxs-calendar'></i>March 2022 - Present (Gurgaon)</div>
                                     <h3>P.K. Online Ventures Pvt. Ltd.</h3>
                                     <ul>
+                                        <li>utsavyoga.com - (Website Link)</li>
                                         <li>Designed and developed a customized frontend side with fully responsive for mobile, tablets, and desktops.</li>
                                         <li>Developed dynamic templates, Landing pages, Community (Social Media), Mailer, Newsletters, and Dynamic scheduling for a Carve out users' wellness journey.</li>
                                         <li>Design wireframes UI with dummy metadata for the flow of modules, then create template/pages and implement dynamic functionality.</li>
@@ -108,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-12 education-col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 education-col">
                         <h3 class="title">Education/Ceritfications</h3>
                         <div class="education-box">
                             <div class="education-content">
@@ -128,8 +131,8 @@
                             <div class="education-content">
                                 <div class="content">
                                     <div class="year"><i class='bx bxs-calendar'></i>2015-2018</div>
-                                    <h3>Bachelor Degree <span><br>- Aligarh Muslim University</span></h3>
-                                    <p>B.A. Hons. Political Science student with a deep understanding of political systems and ideologies. Strong analytical, research, and communication skills. Seeking opportunities to apply knowledge in political discourse, policy analysis, or related fields to contribute to informed decision-making and societal skills-bar.</p>
+                                    <h3>Bachelor Degree <span><br>- Indira Gandhi National Open University </span></h3>
+                                    <p>BCA student with a passion for technology and software development. Proficient in programming languages and eager to contribute to innovative projects. Strong problem-solving and teamwork abilities.</p>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +144,7 @@
             <div class="container">
                 <h2 class="heading">My <span>Skills</span></h2>
                 <div class="row skills-row">
-                    <div class="col-md-6 skills-col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4 skills-col">
                         <h3 class="title">Coding Skills</h3>
                         <div class="skills-box">
                             <div class="skill-content">
@@ -164,7 +167,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 skills-col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4 skills-col">
                         <h3 class="title">Professional Skills</h3>
                         <div class="skills-box">
                             <div class="skill-content">
@@ -241,6 +244,14 @@
   
 
     <script src="assets/js/main.js"></script>
+    <script>
+        let typed = new Typed(".auto-type", {
+            strings: [ "UI/UX Developer", "Web Designer" , "Frontend Developer"],
+            typeSpeed: 200,
+            backSpeed: 200,
+            loop: true
+        })
+    </script>
 </body>
 
 </html>
