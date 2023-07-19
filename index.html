@@ -61,7 +61,7 @@
         </section>
 
          <!-- about section design -->
-        <section class="about" id="about" data-aos="zoom-in-up">
+        <section class="about" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -254,6 +254,7 @@
   
 
     <script src="assets/js/main.js"></script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>    
     <script>
         let typed = new Typed(".auto-type", {
             strings: [ "UI/UX Developer", "Web Designer" , "Frontend Developer"],
@@ -264,21 +265,22 @@
         AOS.init();
 
         const sendEmail=()=>{
+
+            console.log(document.getElementById("email").value);
             Email.send({
                 Host : "smtp.elasticemail.com",
                 Username : "varshneymohit35@gmail.com",
-                Password : "9045064914",
-                To : 'mohit.varshney@pkonline.in',
-                From : document.getElementById("email").value,
-                Subject : "New Contact form",
-                Body : "And this is the bod"
+                Password : "ECF57BB1E97B3CCDB68F5A05FCFAE256A4F4",
+                To : 'varshneymohit1304@gmail.com',
+                From : 'varshneymohit35@gmail.com',
+                Subject : document.getElementById('subject').value,
+                Body : "Name: " + document.getElementById('name').value + "<br> Email: " + document.getElementById('email').value + "<br> Mobile: " + document.getElementById('mobile').value + "<br> Subject: " + document.getElementById('subject').value + "<br> Message: " + document.getElementById('message').value
             }).then(
-              message => alert(message)
+              message => alert("Thank you for reaching out. Your message has been successfully submitted. We appreciate your interest and will get back to you as soon as possible. Have a great day!")
             );
         }
 
     </script>
-    <script src=" https://smtpjs.com/v3/smtp.js"></script>    
 </body>
 
 </html>
