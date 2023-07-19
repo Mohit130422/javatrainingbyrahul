@@ -55,6 +55,11 @@ p {
     opacity: 0;
   }
 }
+@keyframes aboutSpinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
 header {
   position: fixed;
   top: 0;
@@ -262,6 +267,7 @@ main .heading span {
 main .home {
   height: 100vh;
   padding-bottom: 6rem;
+  position: relative;
 }
 main .home .home-content {
   margin: 80px 0 0 0;
@@ -353,6 +359,13 @@ main .home .home-content .btn-box .btn:nth-child(2)::before {
 main .home .home-content .btn-box .btn:nth-child(2):hover {
   color: #081b29;
 }
+main .home .intro-banner {
+  width: 80%;
+  margin: 120px auto 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  animation: mover 2s infinite alternate ease-in-out;
+}
 main .home .social-icon {
   display: flex;
   justify-content: center;
@@ -396,13 +409,6 @@ main .home .social-icon a::before {
   z-index: -1;
   transition: 0.5s ease-in-out;
 }
-main .home .intro-banner {
-  width: 80%;
-  margin: 120px auto 0;
-  -o-object-fit: contain;
-     object-fit: contain;
-  animation: mover 2s infinite alternate ease-in-out;
-}
 main .about {
   display: flex;
   justify-content: center;
@@ -443,6 +449,7 @@ main .about .about-img .circle-spin {
   border-bottom: 0.2rem solid #112e42;
   border-left: 0.2rem solid #00abf0;
   border-right: 0.2rem solid #00abf0;
+  animation: aboutSpinner 8s linear infinite;
 }
 main .about .about-content {
   text-align: center;
@@ -743,6 +750,12 @@ main .contact form .textarea-field .focus {
   }
 }
 @media (max-width: 768px) {
+  main .home {
+    position: relative;
+  }
+  main .home .row {
+    flex-direction: column-reverse;
+  }
   main .home .row .home-content {
     text-align: center;
   }
@@ -750,12 +763,22 @@ main .contact form .textarea-field .focus {
     justify-content: center;
     width: 100%;
   }
-  main .home .row .banner {
-    display: none !important;
+  main .home .row .home-content .btn-box .btn {
+    font-size: 1rem;
+  }
+  main .home .row .intro-banner {
+    margin: auto;
+    width: 60%;
   }
   main .home .social-icon {
-    position: unset;
-    align-items: center;
+    flex-direction: column;
+    top: 20%;
+    right: 2%;
+    left: unset;
+    justify-content: unset;
+  }
+  main .home .social-icon a {
+    margin-bottom: 16px;
   }
   main .education .education-col {
     padding: 1rem;
@@ -804,10 +827,6 @@ main .contact form .textarea-field .focus {
   }
   main .home .home-content .btn-box {
     width: 100%;
-  }
-  main .home .social-icon {
-    position: unset;
-    align-items: center;
   }
   main .contact form .input-box {
     flex-direction: column;

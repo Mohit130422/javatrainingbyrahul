@@ -6,11 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohit Varshney | Frontend Developer</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -28,38 +31,37 @@
         </nav>
     </header>
     <main>
+        <!-- home section design -->
         <section class="home" id="home">
             <div class="container h-100">
                 <div class="row d-flex align-items-center">
-                    <div class="col-lg-6 col-md-12 d-flex text-center text-md-start">
+                    <div class="col-lg-6 col-md-12 d-flex text-center text-md-start" data-aos="fade-right">
                         <div class="home-content">
                             <h1>Hi, I'm <span> Mohit Varshney</span> </h1>
                             <div class="animate-text">
                                 <h3><span class="auto-type">Frontend Developer</span></h3>
                             </div>
-                            <p>Creative Frontend Developer with 2 years+ of experiences using HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. Skilled in creating user-friendly web applications, collaborating with teams, and delivering high-quality, responsive designs. Strong problem-solving abilities, attention to detail, and a passion for intuitive user experiences.</p>
+                            <p>Creative Frontend Developer with 2 years+ of experiences using HTML, CSS3, SASS, JavaScript, jQuery, Bootstrap, React, and ES6. Skilled in creating user-friendly web applications, collaborating with teams, and delivering high-quality, responsive designs.</p>
                             <div class="btn-box">
-                                <a href="#" class="btn">Download CV</a>
-                                <a href="#" class="btn">Let's Talk</a>
+                                <a href="https://drive.google.com/file/d/1iq1YYFvXQKwLSorYgE1xtatDjbfvFFxV/view?usp=drive_link" class="btn" target="_blank">Download CV</a>
+                                <a href="tel:+918077636394" class="btn" target="_blank">Let's Talk</a>
                             </div>
-                        </div>                        
+                        </div>                                              
                     </div>
-                    <div class="col-lg-6 d-flex banner">
+                    <div class="col-lg-6 d-flex banner" data-aos="fade-left">
                         <img src="assets/images/background.png" alt="" class="intro-banner">
                     </div>
-                </div>
-                <div class="row mt-4">
-                    <div class="col">
-                        <div class="social-icon">
-                            <a href="#"><i class='bx bxl-github' ></i></a>
-                            <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                        </div>
-                    </div>
-                </div>
+                </div>                
+                <div class="social-icon">
+                    <a href="https://github.com/Mohit130422" target="_blank"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/mohit-varshney-7437571b1/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.instagram.com/the_varshney_mohit/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                </div> 
             </div>
         </section>
-        <section class="about" id="about">
+
+         <!-- about section design -->
+        <section class="about" id="about" data-aos="zoom-in-up">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -79,11 +81,13 @@
                 </div>
             </div>
         </section>
+
+        <!-- education section design -->
         <section class="education" id="education">
             <div class="container">
                 <h2 class="heading">My<span>Journey</span></h2>
                 <div class="row education-row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 education-col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 education-col" data-aos="fade-right">
                         <h3 class="title">Experience</h3>
                         <div class="education-box">
                             <div class="education-content">
@@ -111,26 +115,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 education-col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 education-col" data-aos="fade-left">
                         <h3 class="title">Education/Ceritfications</h3>
                         <div class="education-box">
                             <div class="education-content">
                                 <div class="content">
-                                    <div class="year"><i class='bx bxs-calendar'></i>2020-2021</div>
+                                    <!-- <div class="year"><i class='bx bxs-calendar'></i>2020-2021</div> -->
                                     <h3>React JS the Complete Guide & Responsive Web Design<span><br>- Udemy</span></h3>
                                     <p>In this course I'd learned the concepts of React, redux, hooks, and Es6 and HTML5, CSS3, JavaScript, Es6 service, jQuery, Bootstrap. Manage complex state efficiently with React's Context API & React Redux & Learn about routing & route-related data fetching with React Router.</p>
                                 </div>
                             </div>
                             <div class="education-content">
                                 <div class="content">
-                                    <div class="year"><i class='bx bxs-calendar'></i>2018-2019</div>
-                                    <h3>O Level Diploma in Computer Application & Web designing<span><br>- National Institute of Electronics and Information Technology</span></h3>
+                                    <!-- <div class="year"><i class='bx bxs-calendar'></i>2018-2019</div> -->
+                                    <h3>Diploma in Computer Application & Web designing<span><br>- Department of Electronics and Accreditation of Computer Courses.</span></h3>
                                     <p>In this course I learned Four Modules i.e. Business Tool in IT Management system, Introduction of ICT, Internet Technology and Web designing (HTML. CSS, JS), and 'C' Programming for Understanding the basics of web design, including its purpose, principles, and the role it plays in creating engaging user experiences.</p>
                                 </div>
                             </div>
                             <div class="education-content">
                                 <div class="content">
-                                    <div class="year"><i class='bx bxs-calendar'></i>2015-2018</div>
+                                    <!-- <div class="year"><i class='bx bxs-calendar'></i>2015-2018</div> -->
                                     <h3>Bachelor Degree <span><br>- Indira Gandhi National Open University </span></h3>
                                     <p>BCA student with a passion for technology and software development. Proficient in programming languages and eager to contribute to innovative projects. Strong problem-solving and teamwork abilities.</p>
                                 </div>
@@ -140,11 +144,13 @@
                 </div>
             </div>      
         </section>
+
+         <!-- skills section design -->
         <section class="skills" id="skills">
             <div class="container">
                 <h2 class="heading">My <span>Skills</span></h2>
                 <div class="row skills-row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4 skills-col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4 skills-col" data-aos="fade-right">
                         <h3 class="title">Coding Skills</h3>
                         <div class="skills-box">
                             <div class="skill-content">
@@ -167,7 +173,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4 skills-col">
+                    <div class="col-lg-6 col-md-12 col-sm-12 mb-4 skills-col" data-aos="fade-left">
                         <h3 class="title">Professional Skills</h3>
                         <div class="skills-box">
                             <div class="skill-content">
@@ -193,34 +199,36 @@
                 </div>
             </div>
         </section>
-        <section class="contact" id="contact">
+
+        <!-- contact section design -->
+        <section class="contact" id="contact" data-aos="zoom-in">
             <div class="container">
                 <h2 class="heading">Contact <span>Me!</span></h2>
                 <div class="row">
                     <div class="col-12">
-                        <form action="#">
+                        <form onsubmit="sendEmail(); reset(); return false;">
                             <div class="input-box">
                                 <div class="input-field">
-                                    <input type="text" name="" id="" placeholder="Full Name" required> 
+                                    <input type="text" name="fullname" id="name" placeholder="Full Name" required> 
                                     <span class="focus"></span>
                                 </div>
                                 <div class="input-field">
-                                    <input type="email" name="" id="" placeholder="name@email.com" required> 
+                                    <input type="email" name="email" id="email" placeholder="name@email.com" required> 
                                     <span class="focus"></span>
                                 </div>
                             </div>
                             <div class="input-box">
                                 <div class="input-field">
-                                    <input type="number" name="" id="" placeholder="Mobile Number" required> 
+                                    <input type="number" name="mobileno." id="mobile" placeholder="Mobile Number" required> 
                                     <span class="focus"></span>
                                 </div>
                                 <div class="input-field">
-                                    <input type="text" name="" id="" placeholder="Email Subject" required> 
+                                    <input type="text" name="email-subject" id="subject" placeholder="Email Subject" required> 
                                     <span class="focus"></span>
                                 </div>
                             </div>
                             <div class="textarea-field">
-                                <textarea name="" id="" cols="30" rows="5" placeholder="Enter your Concern!" required></textarea>
+                                <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your Concern!" required></textarea>
                                 <spna class="focus"></spna>
                             </div>
                             <div class="btn-box btns justify-content-center mt-4">
@@ -232,6 +240,8 @@
             </div>
         </section>
     </main>
+
+    <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
             <p>Copyright &copy; 2023 by Mohit Varshney | All Rights Reserved.</p>
@@ -247,11 +257,28 @@
     <script>
         let typed = new Typed(".auto-type", {
             strings: [ "UI/UX Developer", "Web Designer" , "Frontend Developer"],
-            typeSpeed: 200,
-            backSpeed: 200,
+            typeSpeed: 80,
+            backSpeed: 80,
             loop: true
         })
+        AOS.init();
+
+        const sendEmail=()=>{
+            Email.send({
+                Host : "smtp.elasticemail.com",
+                Username : "varshneymohit35@gmail.com",
+                Password : "9045064914",
+                To : 'mohit.varshney@pkonline.in',
+                From : document.getElementById("email").value,
+                Subject : "New Contact form",
+                Body : "And this is the bod"
+            }).then(
+              message => alert(message)
+            );
+        }
+
     </script>
+    <script src=" https://smtpjs.com/v3/smtp.js"></script>    
 </body>
 
 </html>
