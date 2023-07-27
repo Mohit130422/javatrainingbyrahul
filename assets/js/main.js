@@ -34,3 +34,7 @@ window.onscroll = () =>{
   });
 }
 
+$(".video-img").click(function() {
+  var video = $(this).closest('.intro-vdo').find('video')[0];
+  video.paused ? video.play() : video.pause();
+});
