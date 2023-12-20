@@ -29403,13 +29403,13 @@ progress {
     font-size: 4.375rem;
 }
 }.display-2 {
-    font-size: calc(1.5rem + 3vw);
+    font-size: 30px;
     font-weight: 300;
     line-height: 1;
 }
 @media (min-width:1200px) {
     .display-2 {
-    font-size: 3.75rem;
+    font-size: 2rem;
 }
 }.display-3 {
     font-size: calc(1.425rem + 2.1vw);
