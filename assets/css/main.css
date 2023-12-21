@@ -128,6 +128,7 @@
 }
 *, ::after, ::before {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 @media (prefers-reduced-motion:no-preference) {
     :root {
@@ -1857,7 +1858,16 @@ progress {
 .g-wd-16, .gy-wd-16 {
     --bs-gutter-y: 25rem;
 }
-}.table {
+}
+@keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+}
+.table {
     --bs-table-bg: #FFFFFF;
     --bs-table-accent-bg: #F7F9FB;
     --bs-table-striped-color: #77838F;
@@ -29400,7 +29410,8 @@ progress {
 }
 @media (min-width:1200px) {
     .display-1 {
-    font-size: 4.375rem;
+    font-size: 3rem;
+    margin-top: 2rem;
 }
 }.display-2 {
     font-size: 30px;
@@ -29409,7 +29420,7 @@ progress {
 }
 @media (min-width:1200px) {
     .display-2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 }.display-3 {
     font-size: calc(1.425rem + 2.1vw);
@@ -29483,6 +29494,7 @@ progress {
 .img-fluid {
     max-width: 100%;
     height: auto;
+    animation: mover 2s infinite alternate ease-in-out;
 }
 .img-thumbnail {
     padding: .25rem;
@@ -39904,6 +39916,10 @@ textarea.form-control-lg {
 }
 .text-capitalize {
     text-transform: capitalize!important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
 }
 .text-wrap {
     white-space: normal!important;
@@ -50766,7 +50782,7 @@ blockquote cite {
 }
 @media (max-width:767.98px) {
     .display-2 {
-    font-size: 2.5rem;
+    font-size: 1rem;
 }
 }.display-3 {
     line-height: 1.2;
