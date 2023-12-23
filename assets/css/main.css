@@ -21727,7 +21727,7 @@ label {
     padding-top: 0;
 }
 body, html {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body {
     -webkit-font-smoothing: antialiased;
