@@ -1,0 +1,1155 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from transvelo.github.io/skola-html/5.1/home-v3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Dec 2023 06:07:41 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.svg">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&amp;family=Lora:wght@400;700&amp;family=Montserrat:wght@400;500;600;700&amp;family=Nunito:wght@400;700&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/fontawesome.css">
+    <link rel="stylesheet" href="assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/libs/aos/dist/aos.css">
+    <link rel="stylesheet" href="assets/libs/choices.js/public/assets/styles/choices.min.css">
+    <link rel="stylesheet" href="assets/libs/flickity-fade/flickity-fade.css">
+    <link rel="stylesheet" href="assets/libs/flickity/dist/flickity.min.css">
+    <link rel="stylesheet" href="assets/libs/highlightjs/styles/vs2015.css">
+    <link rel="stylesheet" href="assets/libs/jarallax/dist/jarallax.css">
+    <link rel="stylesheet" href="assets/libs/quill/dist/quill.core.css" />
+    <link rel="stylesheet" href="assets/libs/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/owl.theme.default.min.css">
+    <script src="assets/libs/jquery.min.js"></script>
+    <script src="assets/libs/owl.carousel.min.js"></script>
+
+    <!-- Map -->
+    <link href='../../../api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <title>Code with Rahul</title>
+
+</head>
+
+<body>
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="container d-none d-xl-block bg-dark">
+        <div class="d-flex align-items-center border-bottom border-white-20 pt-2 pb-4">
+            <ul class="nav mx-n3">
+                <li class="nav-item px-3">
+                    <span class="font-size-sm text-white">+91 8791851791</span>
+                </li>
+                <li class="nav-item px-3">
+                    <span class="font-size-sm text-white">gaurrahul619@gmail.com</span>
+                </li>
+            </ul>
+
+            <ul class="nav ms-auto me-n3 font-size-sm">
+                <li class="nav-item px-3">
+                    <a href="#" class="nav-link p-0 text-white">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="#" class="nav-link p-0 text-white">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="#" class="nav-link p-0 text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="nav-item px-3">
+                    <a href="#" class="nav-link p-0 text-white">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <header class="navbar navbar-expand-xl navbar-dark">
+        <div class="container">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.svg" class="navbar-brand-img">
+            </a>
+
+            <!-- Collapse -->
+            <div class="collapse navbar-collapse z-index-lg" id="navbarCollapse">
+
+                <!-- Toggler -->
+                <button class="navbar-toggler outline-0 text-primary" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- Icon -->
+                    <svg width="16" height="17" viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.142135 2.00015L1.55635 0.585938L15.6985 14.7281L14.2843 16.1423L0.142135 2.00015Z"
+                            fill="currentColor"></path>
+                        <path d="M14.1421 1.0001L15.5563 2.41431L1.41421 16.5564L0 15.1422L14.1421 1.0001Z"
+                            fill="currentColor"></path>
+                    </svg>
+
+                </button>
+
+                <!-- Navigation -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown-full-width">
+                        <a class="nav-link px-xl-4" href="#" aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-xl-4" href="#why-us" aria-haspopup="true" aria-expanded="false">
+                            Why Us?
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-xl-4" href="#courses" aria-haspopup="true" aria-expanded="false">
+                            Courses
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-xl-4" href="#contact-us" aria-haspopup="true" aria-expanded="false">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Toggler -->
+            <button
+                class="navbar-toggler ms-4 ms-md-5 shadow-none bg-teal text-white icon-xs p-0 outline-0 h-40p w-40p d-flex d-xl-none place-flex-center"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Icon -->
+                <svg width="25" height="17" viewBox="0 0 25 17" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="25" height="1" fill="currentColor" />
+                    <rect y="8" width="15" height="1" fill="currentColor" />
+                    <rect y="16" width="20" height="1" fill="currentColor" />
+                </svg>
+
+            </button>
+        </div>
+    </header>
+
+
+    <!-- HERO
+    ================================================== -->
+    <section class="py-15 pt-xl-14 mt-n14 pb-lg-15 bg-dark bg-cover position-relative">
+        <!-- Cursor position parallax -->
+        <div class="position-absolute right-0 left-0 top-0 bottom-0">
+            <div class="cs-parallax">
+                <div class="cs-parallax-layer" data-depth="0.1">
+                    <img class="img-fluid" src="assets/img/parallax/layer-01.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.3">
+                    <img class="img-fluid" src="assets/img/parallax/layer-02.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.2">
+                    <img class="img-fluid" src="assets/img/parallax/layer-03.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.2">
+                    <img class="img-fluid" src="assets/img/parallax/layer-04.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.4">
+                    <img class="img-fluid" src="assets/img/parallax/layer-05.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.3">
+                    <img class="img-fluid" src="assets/img/parallax/layer-06.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.2">
+                    <img class="img-fluid" src="assets/img/parallax/layer-07.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.2">
+                    <img class="img-fluid" src="assets/img/parallax/layer-08.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.4">
+                    <img class="img-fluid" src="assets/img/parallax/layer-09.svg" alt="Layer">
+                </div>
+                <div class="cs-parallax-layer" data-depth="0.3">
+                    <img class="img-fluid" src="assets/img/parallax/layer-10.svg" alt="Layer">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-5 col-lg-6 order-md-2" data-aos="fade-right" data-aos-duration="10">
+                    <!-- Image -->
+                    <img src="assets/img/illustrations/illustration-4.svg"
+                        class="img-fluid ms-xl-5 mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="...">
+
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-left" data-aos-duration="10">
+                    <!-- Heading -->
+                    <h3 class="display-2 text-white">
+                        Elevate Your Code Journey with
+                    </h3>
+                    <span class="display-1 text-orange fw-bold mb-6 auto-type"></span>
+                    <!-- Text -->
+                    <p class="text-white text-capitalize mt-6" data-aos="fade-up" data-aos-duration="200">
+                        Embark on a Coding Odyssey: Where Ideas Ignite and Algorithms Dance. Our Platform is Your
+                        Gateway to Digital Mastery, Offering a Journey Beyond Boundaries. Elevate Your Skills, Unleash
+                        Your Potential — Because in Code, We Craft Futures. Join Us in Shaping the Next Era of
+                        Innovation and Excellence
+                    </p>
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+        <!-- Shape -->
+        <div class="shape shape-blur mb-n-1 shape-bottom shape-fluid-x svg-shim text-white-ice">
+            <svg viewBox="0 0 1920 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                    d="M0,229l1920,0V-0.4c0,25.8-19.6,47.3-45.2,49.8L54.8,223.8C25.4,226.6,0,203.5,0,174V229z" />
+            </svg>
+
+        </div>
+    </section>
+
+    <!-- ICON BLOCKS
+    ================================================== -->
+    <section class="py-5 pt-md-11 pb-md-12 bg-white-ice text-center" id="why-us">
+        <div class="container" id="why-us">
+            <div class="mb-md-8 mb-4">
+                <h1 class="mb-1">Why Study With Us?</h1>
+                <p class="font-size-lg mb-0 text-capitalize">Discover your perfect program in our courses Because in
+                    Code, We Craft Futures. Join Us in Shaping the Next Era of Innovation and Excellence</p>
+            </div>
+
+            <div class="row row-cols-md-3">
+                <div class="col-md mb-4 mb-md-0">
+                    <div class="p-5 d-inline-block rounded-circle mb-6" style="border: 1px solid #F8C994;">
+                        <div class="icon-circle icon-circle-lg" style="background-color: #f5debc; color: #EE8E00;">
+                            <!-- Icon -->
+                            <svg width="50" height="42" viewBox="0 0 50 42" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M40.7772 24.0457L34.8852 20.873C33.9687 20.3794 32.8878 20.4035 31.9939 20.9373C31.1 21.4711 30.5664 22.4115 30.5664 23.4525V30.7043C30.5664 31.7975 31.168 32.7919 32.1364 33.2993C32.5655 33.5241 33.0321 33.6353 33.4971 33.6353C34.0813 33.6353 34.6631 33.4595 35.1637 33.113L41.0558 29.0338C41.9005 28.4491 42.3706 27.4876 42.3133 26.4618C42.2561 25.436 41.6817 24.5328 40.7772 24.0457ZM33.4961 30.7037V23.4526L39.3879 26.6254L33.4961 30.7037Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M17.1875 19.5352H7.8125C7.00352 19.5352 6.34766 20.191 6.34766 21C6.34766 21.809 7.00352 22.4648 7.8125 22.4648H17.1875C17.9965 22.4648 18.6523 21.809 18.6523 21C18.6523 20.191 17.9965 19.5352 17.1875 19.5352Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M17.1875 25.7852H7.8125C7.00352 25.7852 6.34766 26.441 6.34766 27.25C6.34766 28.059 7.00352 28.7148 7.8125 28.7148H17.1875C17.9965 28.7148 18.6523 28.059 18.6523 27.25C18.6523 26.441 17.9965 25.7852 17.1875 25.7852Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M17.1875 32.0352H7.8125C7.00352 32.0352 6.34766 32.691 6.34766 33.5C6.34766 34.309 7.00352 34.9648 7.8125 34.9648H17.1875C17.9965 34.9648 18.6523 34.309 18.6523 33.5C18.6523 32.691 17.9965 32.0352 17.1875 32.0352Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M45.6055 0.00390625H4.39453C1.97139 0.00390625 0 1.97529 0 4.39844V37.6016C0 40.0247 1.97139 41.9961 4.39453 41.9961H45.6055C48.0286 41.9961 50 40.0247 50 37.6016V4.39844C50 1.97529 48.0286 0.00390625 45.6055 0.00390625ZM4.39453 2.93359H45.6055C46.4132 2.93359 47.0703 3.59072 47.0703 4.39844V12.5039H2.92969V4.39844C2.92969 3.59072 3.58682 2.93359 4.39453 2.93359ZM45.6055 39.0664H4.39453C3.58682 39.0664 2.92969 38.4093 2.92969 37.6016V15.4336H47.0703V37.6016C47.0703 38.4093 46.4132 39.0664 45.6055 39.0664Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M7.8125 9.18359C8.62151 9.18359 9.27734 8.52776 9.27734 7.71875C9.27734 6.90974 8.62151 6.25391 7.8125 6.25391C7.00349 6.25391 6.34766 6.90974 6.34766 7.71875C6.34766 8.52776 7.00349 9.18359 7.8125 9.18359Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M14.0625 9.18372C14.8715 9.18372 15.5273 8.52788 15.5273 7.71887C15.5273 6.90986 14.8715 6.25403 14.0625 6.25403C13.2535 6.25403 12.5977 6.90986 12.5977 7.71887C12.5977 8.52788 13.2535 9.18372 14.0625 9.18372Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M20.3125 9.18359C21.1215 9.18359 21.7773 8.52776 21.7773 7.71875C21.7773 6.90974 21.1215 6.25391 20.3125 6.25391C19.5035 6.25391 18.8477 6.90974 18.8477 7.71875C18.8477 8.52776 19.5035 9.18359 20.3125 9.18359Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+                    </div>
+
+                    <h4>Learn Latest Tech-Languages</h4>
+                    <p class="px-lg-7 px-xl-8">Dive into the future of tech with our coding classes. Learn the latest
+                        languages like Python, JavaScript, and React, shaping your skills for success in the
+                        ever-evolving digital landscape. Stay ahead in the digital realm. </p>
+                </div>
+
+                <div class="col-md mb-4 mb-md-0">
+                    <div class="p-5 d-inline-block rounded-circle mb-6" style="border: 1px solid #B7B3F8;">
+                        <div class="icon-circle icon-circle-lg" style="background-color: #d3d8f8; color: #5066F5;">
+                            <!-- Icon -->
+                            <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.6777 7.32231C37.9558 2.60048 31.6777 0 25 0C18.3223 0 12.0442 2.60048 7.32231 7.32231C2.60038 12.0441 0 18.3223 0 25C0 31.6777 2.60048 37.9558 7.32231 42.6777C12.0441 47.3996 18.3223 50 25 50C31.6777 50 37.9558 47.3995 42.6777 42.6777C47.3996 37.9559 50 31.6777 50 25C50 18.3223 47.3995 12.0442 42.6777 7.32231ZM41.6253 39.5856L40.2162 38.1764C39.4842 37.4445 39.3028 36.3304 39.7647 35.404L41.0257 32.875C42.2388 30.4418 42.88 27.7188 42.88 25C42.88 22.2812 42.2388 19.5581 41.0257 17.125L39.7647 14.596C39.3028 13.6696 39.4842 12.5555 40.2162 11.8236L41.6253 10.4144C45.1758 14.4502 47.1154 19.5763 47.1154 25C47.1154 30.4237 45.1758 35.5498 41.6253 39.5856ZM12.8168 34.1168L11.5559 31.5878C9.49914 27.4627 9.49914 22.5372 11.5559 18.4121L12.8168 15.8831C13.2154 15.0838 13.3953 14.2209 13.3707 13.3701C13.4213 13.3715 13.4719 13.3738 13.5227 13.3738C14.3238 13.3738 15.1315 13.1914 15.8832 12.8167L18.4122 11.5558C22.5373 9.49894 27.4628 9.49904 31.5879 11.5558L34.1169 12.8167C34.9161 13.2152 35.7788 13.395 36.6293 13.3705C36.6048 14.2212 36.7847 15.0838 37.1832 15.883L38.4441 18.412C40.5009 22.5371 40.5009 27.4626 38.4441 31.5877L37.1832 34.1167C36.7847 34.916 36.6048 35.7786 36.6293 36.6291C35.7788 36.6046 34.9161 36.7845 34.1169 37.183L31.5879 38.4439C27.4627 40.5007 22.5372 40.5006 18.4122 38.4439L15.8832 37.183C15.0839 36.7845 14.2213 36.6046 13.3708 36.6291C13.3952 35.7788 13.2153 34.9161 12.8168 34.1168ZM25 2.88462C30.4237 2.88462 35.5498 4.82423 39.5856 8.37471L38.1764 9.78385C37.4446 10.5157 36.3305 10.6973 35.404 10.2353L32.875 8.97433C30.4418 7.76125 27.7188 7.12 25 7.12C22.2812 7.12 19.5581 7.76125 17.125 8.97433L14.596 10.2353C13.6695 10.6972 12.5556 10.5158 11.8236 9.78385L10.4144 8.37471C14.4502 4.82423 19.5763 2.88462 25 2.88462ZM8.37471 10.4144L9.78385 11.8236C10.5158 12.5555 10.6972 13.6696 10.2353 14.596L8.97433 17.125C7.76125 19.5582 7.12 22.2812 7.12 25C7.12 27.7188 7.76125 30.4419 8.97433 32.875L10.2353 35.404C10.6972 36.3304 10.5158 37.4445 9.78385 38.1764L8.37471 39.5856C4.82423 35.5498 2.88462 30.4237 2.88462 25C2.88462 19.5763 4.82423 14.4502 8.37471 10.4144ZM25 47.1154C19.5763 47.1154 14.4502 45.1758 10.4144 41.6253L11.8236 40.2162C12.5555 39.4844 13.6696 39.3028 14.596 39.7647L17.125 41.0257C19.5582 42.2388 22.2812 42.88 25 42.88C27.7188 42.88 30.4419 42.2388 32.875 41.0257L35.404 39.7647C36.3305 39.3029 37.4445 39.4842 38.1764 40.2162L39.5856 41.6253C35.5498 45.1758 30.4237 47.1154 25 47.1154Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+                    </div>
+
+                    <h4>Flexible Learning</h4>
+                    <p class="px-lg-7 px-xl-8">Flexible learning meets coding excellence. Join our classes to master
+                        programming at your own pace. Explore new languages, and shape your coding journey with
+                        convenience and adaptability.</p>
+                </div>
+
+                <div class="col-md mb-4 mb-md-0">
+                    <div class="p-5 d-inline-block rounded-circle mb-6" style="border: 1px solid #B2F4DC;">
+                        <div class="icon-circle icon-circle-lg" style="background-color: #b2f4dc; color: #00C27C;">
+                            <!-- Icon -->
+                            <svg width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M36.7188 39.7461C36.7188 40.5552 36.063 41.2109 35.2539 41.2109C34.4448 41.2109 33.7891 40.5552 33.7891 39.7461C33.7891 38.937 34.4448 38.2812 35.2539 38.2812C36.063 38.2812 36.7188 38.937 36.7188 39.7461Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M29.3945 17.7734H31.1108C33.3912 17.7734 35.5354 18.6615 37.1479 20.274C37.429 20.5555 37.8056 20.7031 38.184 20.7031C38.5735 20.7031 38.9503 20.5433 39.2193 20.274C40.1783 19.315 41.3261 18.6146 42.5781 18.2026V22.168C42.5781 22.9771 43.2339 23.6328 44.043 23.6328C44.8521 23.6328 45.5078 22.9771 45.5078 22.168V17.7734H46.9727C47.7818 17.7734 48.4375 17.1177 48.4375 16.3086V1.46484C48.4375 0.655746 47.7818 0 46.9727 0H45.2564C42.659 0 40.1939 0.857925 38.1836 2.4395C36.1732 0.857925 33.7082 0 31.1108 0H29.3945C28.5854 0 27.9297 0.655746 27.9297 1.46484V16.3086C27.9297 17.1177 28.5854 17.7734 29.3945 17.7734ZM45.5078 2.92969V14.8438H45.2564C43.2205 14.8438 41.3033 15.3725 39.6484 16.3033V5.03235C41.2033 3.67355 43.1721 2.92969 45.2564 2.92969H45.5078ZM30.8594 2.92969H31.1108C33.1944 2.92969 35.1643 3.67126 36.7188 5.0293V16.3029C35.025 15.3503 33.107 14.8438 31.1108 14.8438H30.8594V2.92969Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M3.02734 50H46.9727C47.7818 50 48.4375 49.3443 48.4375 48.5352V33.8867C48.4375 33.0776 47.7818 32.4219 46.9727 32.4219H33.6418C32.9613 29.0829 30.0018 26.5625 26.4648 26.5625H22.0703V25.0675C23.896 23.6919 25 21.5286 25 19.2383V16.6222C25 12.8906 22.3755 9.64966 18.895 9.08356C14.397 8.3519 10.3516 11.7859 10.3516 16.3086V19.2383C10.3516 21.5286 11.4555 23.6919 13.2812 25.0675V26.5625H8.88672C4.8481 26.5625 1.5625 29.8481 1.5625 33.8867V48.5352C1.5625 49.3443 2.21825 50 3.02734 50ZM45.5078 47.0703H25V35.3516H45.5078V47.0703ZM13.2812 16.3086C13.2812 13.6845 15.6109 11.5177 18.4246 11.9755C20.5029 12.3135 22.0703 14.3112 22.0703 16.6222V19.2383C22.0703 20.8031 21.2471 22.2164 19.8685 23.019C19.418 23.2811 19.1406 23.7633 19.1406 24.2851V27.4204L17.6758 28.8853L16.2109 27.4204V24.2851C16.2109 23.7637 15.9336 23.2811 15.4831 23.019C14.1045 22.2164 13.2812 20.8031 13.2812 19.2383V16.3086ZM4.49219 33.8867C4.49219 31.4636 6.46362 29.4922 8.88672 29.4922H14.1392L16.6401 31.9927C16.9258 32.2788 17.3008 32.4219 17.6758 32.4219C18.0508 32.4219 18.4258 32.2788 18.7115 31.9927L21.2124 29.4922H26.4648C28.3745 29.4922 30.0026 30.7167 30.6076 32.4219H23.5352C22.7261 32.4219 22.0703 33.0776 22.0703 33.8867V42.6796C20.8454 41.758 19.3233 41.2109 17.6758 41.2109H10.3516V33.8867C10.3516 33.0776 9.69582 32.4219 8.88672 32.4219C8.07762 32.4219 7.42188 33.0776 7.42188 33.8867V42.6758C7.42188 43.4849 8.07762 44.1406 8.88672 44.1406H17.6758C19.5858 44.1406 21.2147 45.3652 21.8193 47.0703H4.49219V33.8867Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+                    </div>
+
+                    <h4>Learn With Expert</h4>
+                    <p class="px-lg-7 px-xl-8">Unlock the world of coding with expert-led classes. Elevate your skills,
+                        master the latest languages, and receive personalized guidance on your coding journey. Learn
+                        with the best for unparalleled expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PRODUCT
+    ================================================== -->
+    <section class="pt-5 pb-9 py-md-11 bg-white" id="courses">
+        <div class="container">
+            <div class="text-center mb-5 mb-md-8">
+                <h1 class="mb-1">My Courses</h1>
+                <p class="font-size-lg text-capitalize">Discover your perfect program in our courses and Empower Your
+                    Future with Our Cutting-Edge Courses Led by Expert. Elevate Your Skillset Today!</p>
+            </div>
+
+            <div class="row row-cols-md-2 row-cols-xl-3 mb-2">
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-1.png" alt="...">
+                            </a>
+
+                            <span
+                                class="badge sk-fade-bottom badge-lg badge-purple badge-pill badge-float bottom-0 right-0 mb-4 ms-4">
+                                <span class="text-white text-uppercase fw-bold font-size-xs">Best Seller</span>
+                            </span>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="#"><span class="mb-1 d-inline-block text-gray-800">Backend Development</span></a>
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Java from
+                                        Zero to First Job, Practical Guide, 2000+ Live examples</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-2.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Framework
+                                    Development</span></a>
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Master Spring
+                                        Boot 3 & Spring Framework 6 with Java</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-3.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Framework
+                                    Development</span></a>
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Hibernate and
+                                        Spring Data JPA: Beginner to Guru</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-4.png" alt="...">
+                            </a>
+
+                            <span
+                                class="badge sk-fade-bottom badge-lg badge-purple badge-pill badge-float bottom-0 right-0 mb-4 ms-4">
+                                <span class="text-white text-uppercase fw-bold font-size-xs">Best Seller</span>
+                            </span>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Backend
+                                    Development</span></a>
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="course-single-v5.html" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete
+                                        Guide for core and advance Python</h4>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-5.png" alt="...">
+                            </a>
+                            <span
+                                class="badge sk-fade-bottom badge-lg badge-purple badge-pill badge-float bottom-0 right-0 mb-4 ms-4">
+                                <span class="text-white text-uppercase fw-bold font-size-xs">Best Seller</span>
+                            </span>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Framework
+                                    Development</span></a>
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="course-single-v5.html" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete
+                                        Guide for Django Rest Framework of Python</h4>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-6.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Data
+                                    Analyst</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="course-single-v5.html" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete
+                                        Guide for Data Structure and Algorithms</h4>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="#" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-7.png" alt="...">
+                            </a>
+
+                            <span
+                                class="badge sk-fade-bottom badge-lg badge-purple badge-pill badge-float bottom-0 right-0 mb-4 ms-4">
+                                <span class="text-white text-uppercase fw-bold font-size-xs">Best Seller</span>
+                            </span>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Web
+                                    Development</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="course-single-v5.html" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete
+                                        JavaScript Course: From Zero to Expert!</h4>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-8.png" alt="...">
+                            </a>
+                            <span
+                                class="badge sk-fade-bottom badge-lg badge-purple badge-pill badge-float bottom-0 left-0 mb-4 ms-4">
+                                <span class="text-white text-uppercase fw-bold font-size-xs">Best Seller</span>
+                            </span>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Framework
+                                    Development</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">React - The
+                                        Complete Guide 2023 (incl. React Router & Redux)</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-9.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Backend
+                                    Development</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">NodeJS - The
+                                        Complete Guide (MVC, REST APIs, GraphQL, Deno)</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-10.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Core
+                                    Development</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Beginning
+                                        C,C++,C# Programming - From Beginner to Beyond</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-11.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Database
+                                    Management</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Ultimate
+                                        MySQL Bootcamp: Go from SQL Beginner to Expert</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md pb-4 pb-md-7">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-12.png" alt="...">
+                            </a>
+                        </div>
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Repository
+                                    Management</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete
+                                        Git Guide: Understand and master Git and GitHub</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED PRODUCT V2
+    ================================================== -->
+    <section class="pt-5 pb-9 pt-md-11 bg-dark bg-cover jarallax" data-jarallax data-speed=".8"
+        style="background-image: url(assets/img/illustrations/illustration-3.svg)">
+        <div class="container">
+            <div class="text-center mb-5 mb-md-8">
+                <h1 class="text-white mb-1">Popular Course</h1>
+                <p class="font-size-lg text-capitalize">Full Stack Mastery: Dive into our popular tech courses, spanning
+                    front-end to back-end development. Unlock comprehensive skills for success!</p>
+            </div>
+
+            <div class="mx-n4 flickity-button-outset"
+                data-flickity='{"pageDots": false, "prevNextButtons": true, "cellAlign": "left", "wrapAround": true, "imagesLoaded": true}'>
+                <div class="col-12 col-md-6 col-xl-4 pb-4 pb-md-7" style="padding-right:15px;padding-left:15px;">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-13.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Software
+                                    Development</span></a>
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Full Stack
+                                        Development with Java, MS SQL, Spring, Hibernate</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 pb-4 pb-md-7" style="padding-right:15px;padding-left:15px;">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-14.png" alt="...">
+                            </a>
+                        </div>
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Full Stack
+                                    Development</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Python and
+                                        Django Full Stack Web Developer Bootcamp</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 pb-4 pb-md-7" style="padding-right:15px;padding-left:15px;">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-15.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">MERN Stack
+                                    Development</span></a>
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">React,
+                                        NodeJS, Express & MySQL - The MERN Fullstack Guide</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 pb-4 pb-md-7" style="padding-right:15px;padding-left:15px;">
+                    <!-- Card -->
+                    <div class="card border rounded-xl shadow p-2 lift sk-fade">
+                        <!-- Image -->
+                        <div class="card-zoom position-relative">
+                            <a href="course-single-v5.html" class="card-img sk-thumbnail d-block">
+                                <img class="rounded shadow-light-lg" src="assets/img/courses/product-16.png" alt="...">
+                            </a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
+                            <!-- Preheading -->
+                            <a href="course-single-v5.html"><span class="mb-1 d-inline-block text-gray-800">Web
+                                    Development</span></a>
+
+                            <!-- Heading -->
+                            <div class="position-relative">
+                                <a href="#" class="d-block stretched-link">
+                                    <h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Learn Web
+                                        Development from Scratch (HTML ,CSS, JavaScript)</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL
+    ================================================== -->
+    <section class="py-8 py-md-11 pb-xl-12 bg-white">
+        <div class="container-fluid px-xl-9">
+            <div class="text-center mb-2">
+                <h1 class="mb-1">What Our Students Have To Say</h1>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <a href="https://g.co/kgs/66pvX5" target="_blank"
+                    class="card text-center p-8 py-lg-8 px-lg-9 w-lg-96 mx-auto rounded-xl lift-md">
+                    <!-- Image -->
+                    <div class="position-relative">
+                        <div class="card-float top-0 left-0">
+                            <!-- Icon -->
+                            <svg width="36" height="23" viewBox="0 0 36 23" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.5 23L15.5 -4.76837e-06H10L2.98023e-08 23H9.5ZM29.5 23L35.5 -4.76837e-06H30L20 23H29.5Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+
+                        <div class="avatar avatar-custom mb-5">
+                            <img src="https://lh3.googleusercontent.com/a/ACg8ocLRTVNPtoIM6NrM6KB0vZSsX3DHT2xQFk_adJ7V4a6uSb8_wz5f=s64-c-rp-mo-br100"
+                                alt="..." class="avatar-img rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="mb-0">Mohit Varshney</h5>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-0 pb-0 pt-4">
+                        <p class="mb-0 text-capitalize">“Joining Rahul Sir coding classes was a game-changer! The
+                            instructor are phenomenal, breaking down complex concepts effortlessly. The curriculum is
+                            robust, offering a perfect blend of theory and hands-on projects. I've gained practical
+                            skills that elevated my coding prowess. A must for anyone serious about excelling in
+                            programming! “</p>
+                    </div>
+                </a>
+                <a href="https://g.co/kgs/66pvX5" target="_blank"
+                    class="card text-center p-8 py-lg-8 px-lg-9 w-lg-96 mx-auto rounded-xl lift-md">
+                    <!-- Image -->
+                    <div class="position-relative">
+                        <div class="card-float top-0 left-0">
+                            <!-- Icon -->
+                            <svg width="36" height="23" viewBox="0 0 36 23" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.5 23L15.5 -4.76837e-06H10L2.98023e-08 23H9.5ZM29.5 23L35.5 -4.76837e-06H30L20 23H29.5Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+
+                        <div class="avatar avatar-custom mb-5">
+                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjVACTZ_GqjpZQ4-4e28q9VpRAB6fwE5jmddQvdwm1fNUiL4VxqB=w83-h83-p-rp-mo-br100"
+                                alt="..." class="avatar-img rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="mb-0">Vishakha Gaur</h5>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-0 pb-0 pt-4">
+                        <p class="mb-0 text-capitalize">“I absolutely loved the teaching. I have learned from scratch to
+                            an advanced level. I would highly recommend visiting here before you enroll elsewhere.“</p>
+                    </div>
+                </a>
+                <a href="https://g.co/kgs/66pvX5" target="_blank"
+                    class="card text-center p-8 py-lg-8 px-lg-9 w-lg-96 mx-auto rounded-xl lift-md">
+                    <!-- Image -->
+                    <div class="position-relative">
+                        <div class="card-float top-0 left-0">
+                            <!-- Icon -->
+                            <svg width="36" height="23" viewBox="0 0 36 23" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.5 23L15.5 -4.76837e-06H10L2.98023e-08 23H9.5ZM29.5 23L35.5 -4.76837e-06H30L20 23H29.5Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+
+                        <div class="avatar avatar-custom mb-5">
+                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjXvoYDkdeiS_XspjmSpzFqwKHCjAqXtunKTpR1I22GufgasFvRc=w83-h83-p-rp-mo-br100"
+                                alt="..." class="avatar-img rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="mb-0">Danish Khan</h5>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-0 pb-0 pt-4">
+                        <p class="mb-0 text-capitalize">“Rahul Sir is the best choice if you really want to get
+                            expertise in programming,
+                            He has a good knowledge of the programming languages he teaches which reflects in his
+                            lectures.
+                            He clears all the concepts easily, and teaches with real life example which makes it more
+                            understandable and the best thing about sir is that you can take 4–5 demo classes of any
+                            language you want to study without any charges .
+                            If you are looking for JAVA or its advanced concepts and frameworks, then I would strongly
+                            recommend Rahul sir. I have done C Language, Java and advanced java from Rahul
+                            Sir........!!!!!“</p>
+                    </div>
+                </a>
+                <a href="https://g.co/kgs/66pvX5" target="_blank"
+                    class="card text-center p-8 py-lg-8 px-lg-9 w-lg-96 mx-auto rounded-xl lift-md">
+                    <!-- Image -->
+                    <div class="position-relative">
+                        <div class="card-float top-0 left-0">
+                            <!-- Icon -->
+                            <svg width="36" height="23" viewBox="0 0 36 23" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.5 23L15.5 -4.76837e-06H10L2.98023e-08 23H9.5ZM29.5 23L35.5 -4.76837e-06H30L20 23H29.5Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+
+                        <div class="avatar avatar-custom mb-5">
+                            <img src="https://lh3.googleusercontent.com/a-/ALV-UjU7lXaKOaC09vQ1GwUHh2leR7bhaE5f9_581-R3y-NsScI=w66-h66-p-rp-mo-br100"
+                                alt="..." class="avatar-img rounded-circle">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="mb-0">Akash kumar</h5>
+                        </div>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="card-footer px-0 pb-0 pt-4">
+                        <p class="mb-0 text-capitalize">“Last year I joined here, I have learned Core java , Advance
+                            Java ,Spring Framework and it has been a great experience. Rahul Sir is a very thoughtful
+                            teacher, expert in Programming. His lessons were engaging, useful, I would highly recommend
+                            him to anyone interested in learning Java. BEST JAVA TRAINER IN ALIGARH. NO DOUBT !!!“</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 text-center mt-6">
+                <a href="https://www.google.com/localservices/prolist?spp=Cg0vZy8xMWp2aGJiaHh6&src=2&slp=UhUIARIREg8iDS9nLzExanZoYmJoeHo#ts=3" target="_blank" class="btn btn-primary btn-block mw-md-300p">View More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL ACTION
+    ================================================== -->
+    <section class="py-10 jarallax" data-jarallax id="contact-us" styles="background-image: url(assets/img/)">
+        <div class="container text-capitalize">
+            <h1 class="text-center mb-6">Get in touch today!</h1>
+            <div class="row row-cols-md-2 mb-8 mb-lg-11">
+                <div class="col-md mb-6">
+                    <img src="assets/img/contact-msg.png" alt="" width="100%" height="100%">
+                </div>
+                <div class="col-md">
+                    <form class="row">
+                        <div class="form-group mb-6 col-xl-6">
+                            <label for="exampleInputTitle1">Name</label>
+                            <input type="text" class="form-control placeholder-1" id="exampleInputTitle1"
+                                placeholder="Enter Your Name">
+                        </div>
+
+                        <div class="form-group mb-6 col-xl-6">
+                            <label for="exampleInputTitle2">Mobile number</label>
+                            <input type="number" class="form-control placeholder-1" id="exampleInputTitle2"
+                                placeholder="Enter Mobile Number">
+                        </div>
+
+                        <div class="form-group mb-6 col-xl-12">
+                            <label for="exampleInputTitle3">Email</label>
+                            <input type="email" class="form-control placeholder-1" id="exampleInputTitle3"
+                                placeholder="abc@email.com">
+                        </div>
+
+                        <div class="form-group mb-6 col-12">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control placeholder-1" id="exampleFormControlTextarea1" rows="6"
+                                placeholder="Type your Message"></textarea>
+                        </div>
+
+                        <div class="col-12 text-end">
+                            <button type="submit" class="btn btn-primary btn-block">SEND</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <h1 class="mb-6">Contact Details</h1>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-6">
+                    <div class="media d-flex">
+                        <div class="me-5">
+                            <!-- Icon -->
+                            <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.1563 6.10857C9.51012 6.10857 8.98438 5.57813 8.98438 4.9262C8.98438 4.27428 9.51012 3.74384 10.1563 3.74384C10.8024 3.74384 11.3282 4.27428 11.3282 4.9262C11.3282 5.57813 10.8025 6.10857 10.1563 6.10857Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M24.9751 21.6358L23.0707 8.82697C22.9047 7.70855 21.9705 6.89675 20.8494 6.89675H13.5955C14.2338 5.67842 14.2226 4.24519 13.5551 3.02396C12.8802 1.78912 11.6562 1.02758 10.2809 0.986735C10.1985 0.984321 10.114 0.984321 10.0311 0.986735C8.65603 1.02753 7.43212 1.78912 6.7572 3.02396C6.08995 4.2447 6.07852 5.67729 6.71687 6.89675H4.15064C3.02947 6.89675 2.09526 7.70855 1.92924 8.82677L0.0248985 21.6358C-0.0721255 22.2889 0.117186 22.9504 0.544297 23.4508C0.971456 23.9511 1.59178 24.2381 2.24629 24.2381H22.7537C23.4082 24.2381 24.0285 23.9511 24.4556 23.4508C24.8828 22.9505 25.0721 22.289 24.9751 21.6358ZM8.12554 3.7853C8.53683 3.03287 9.24813 2.58722 10.0769 2.56263C10.103 2.56185 10.1296 2.5615 10.1562 2.5615C10.1828 2.5615 10.2094 2.5619 10.2353 2.56263C11.0643 2.58722 11.7756 3.03287 12.1869 3.7853C12.6165 4.57128 12.6046 5.49924 12.1551 6.26788L10.1562 9.66325L8.15792 6.26887C7.70786 5.50003 7.69575 4.57158 8.12554 3.7853ZM23.2717 22.4221C23.1954 22.5116 23.0265 22.6617 22.7537 22.6617H8.59924C8.63571 22.2922 8.8052 21.737 9.44608 21.3821C9.82437 21.1727 9.96275 20.6936 9.75518 20.3119C9.5476 19.9302 9.07259 19.7906 8.69436 20.0001C7.86694 20.4581 7.32147 21.1774 7.11692 22.0798C7.06912 22.2906 7.04602 22.4883 7.0367 22.6617H2.24629C1.97353 22.6617 1.80463 22.5116 1.72826 22.4221C1.65189 22.3326 1.52977 22.1418 1.5702 21.8697L3.47455 9.06059C3.52508 8.72031 3.80942 8.47334 4.15069 8.47334H7.63832L9.15428 11.0485C9.36659 11.4102 9.74111 11.6262 10.1562 11.6262C10.5713 11.6262 10.9458 11.4102 11.1575 11.0495L12.6741 8.47334H20.8494C21.1906 8.47334 21.475 8.72031 21.5255 9.06073L23.4299 21.8697C23.4702 22.1418 23.3481 22.3326 23.2717 22.4221Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M13.5285 10.8785C13.1191 10.7407 12.6767 10.9641 12.5403 11.3771C12.4038 11.79 12.6251 12.2364 13.0344 12.3741C13.0424 12.3768 13.843 12.6656 14.1029 13.4521C14.2119 13.7824 14.5168 13.9913 14.8439 13.9913C14.9258 13.9913 15.0092 13.9782 15.0911 13.9506C15.5005 13.8129 15.7217 13.3665 15.5852 12.9535C15.0769 11.415 13.5915 10.8997 13.5285 10.8785Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M14.1905 15.8431C13.7836 15.6982 13.3373 15.9136 13.1938 16.3241C12.7528 17.5846 11.2415 18.126 11.2097 18.1371C10.8021 18.2758 10.5821 18.7212 10.7183 19.1333C10.8274 19.4636 11.1323 19.6725 11.4594 19.6725C11.5413 19.6725 11.6246 19.6594 11.7066 19.6318C11.7985 19.6009 13.9667 18.8514 14.6673 16.8488C14.8109 16.4383 14.5974 15.988 14.1905 15.8431Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+                        <div class="media-body flex-shrink-1">
+                            <h5 class="mb-4">Find Us</h5>
+                            <address class="">8/90, Raghuveer Puri, Masoodabad, Aligarh, Uttar Pradesh 202001</address>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-6">
+                    <div class="media d-flex">
+                        <div class="me-5">
+                            <!-- Icon -->
+                            <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.9679 25C17.1609 25 16.3607 24.8573 15.5783 24.5731C12.1313 23.3209 8.93169 21.2814 6.32535 18.6751C3.71901 16.0688 1.67955 12.8692 0.427403 9.42217C0.0250265 8.31441 -0.0937186 7.1709 0.074585 6.02329C0.232245 4.94833 0.648634 3.90477 1.27878 3.00539C1.91172 2.10206 2.75553 1.35073 3.71897 0.832632C4.74637 0.280164 5.86775 0 7.05208 0C7.42043 0 7.73877 0.257363 7.81597 0.617504L9.04218 6.33988C9.0977 6.599 9.01806 6.86862 8.83072 7.05601L6.73544 9.15124C8.71202 13.0811 11.9193 16.2883 15.8491 18.2649L17.9444 16.1696C18.1318 15.9823 18.4014 15.9028 18.6605 15.9582L24.3829 17.1844C24.7431 17.2616 25.0004 17.5799 25.0004 17.9483C25.0004 19.1326 24.7202 20.2541 24.1677 21.2815C23.6496 22.2449 22.8983 23.0887 21.9949 23.7216C21.0956 24.3518 20.052 24.7682 18.977 24.9258C18.6402 24.9753 18.3034 25 17.9679 25ZM6.42789 1.59661C4.8657 1.76907 3.47913 2.58788 2.55837 3.90204C1.52296 5.37976 1.28152 7.19731 1.89595 8.88875C4.30327 15.5157 9.48475 20.6972 16.1117 23.1045C17.8031 23.719 19.6207 23.4776 21.0984 22.4421C22.4126 21.5213 23.2314 20.1348 23.4039 18.5726L18.7487 17.5751L16.5605 19.7633C16.3277 19.9961 15.9739 20.058 15.6759 19.9179C11.0282 17.7344 7.26604 13.9723 5.08253 9.32452C4.94255 9.02653 5.00436 8.67274 5.23721 8.43994L7.42541 6.25175L6.42789 1.59661Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+                        <div class="media-body flex-shrink-1">
+                            <h5 class="mb-4">Phone</h5>
+                            <a href="tel:8791851791" class="text-gray-800 d-block">+91 8791851791</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-6">
+                    <div class="media d-flex">
+                        <div class="me-5">
+                            <!-- Icon -->
+                            <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.3651 20H2.50025L9.0205 18.581C9.1475 18.5599 9.26518 18.5011 9.3583 18.4121L20.4055 7.36492C21.2125 6.55966 21.6627 5.46438 21.6555 4.32443C21.657 3.17561 21.2082 2.07199 20.4055 1.25011C19.6003 0.44311 18.505 -0.00714406 17.365 0.000162955C16.2177 -0.00998926 15.1173 0.45462 14.3245 1.28393L3.311 12.3311C3.21388 12.4093 3.14307 12.5154 3.10828 12.6351L1.68943 19.1554C1.6507 19.3895 1.72596 19.628 1.89215 19.7973C2.01689 19.9246 2.18689 19.9974 2.3651 20ZM17.365 1.35151C18.9882 1.35138 20.3042 2.66722 20.3043 4.29048C20.3043 4.30179 20.3043 4.31311 20.3041 4.32443C20.3152 5.09774 20.0101 5.84209 19.4596 6.3852L15.3042 2.19602C15.8516 1.652 16.5931 1.34808 17.365 1.35151ZM14.3582 3.1758L18.5136 7.33116L8.88528 16.9257L4.72992 12.804L14.3582 3.1758ZM4.1894 14.1555L7.53394 17.5L3.24343 18.446L4.1894 14.1555Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M23.8175 23.6486H1.18251C0.809333 23.6486 0.506836 23.9511 0.506836 24.3243C0.506836 24.6975 0.809333 25 1.18251 25H23.8175C24.1907 25 24.4932 24.6975 24.4932 24.3243C24.4932 23.9511 24.1907 23.6486 23.8175 23.6486Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </div>
+                        <div class="media-body flex-shrink-1">
+                            <h5 class="mb-4">Write to Us</h5>
+                            <a href="gaurrahul619@gmail.com" class="text-gray-800">gaurrahul619@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-8 mb-md-11 rounded overflow-hidden grayscal-hover">
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.78021623226!2d80.06892628543156!3d13.04782226851664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1605787834828!5m2!1sen!2sin" width="1200" height="550" style="border:0;width: 100%;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3526.3413193097854!2d78.0646744!3d27.891497299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a5e0ede2575d%3A0xbb275469ab0ac92b!2sJava%20Training%20by%20Rahul%20Sir!5e0!3m2!1sen!2sin!4v1703161160489!5m2!1sen!2sin"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="position-relative bg-dark">
+        <div class="container">
+            <div class="row" id="accordionFooter">
+                <div class="col-12 mt-md-5">
+                    <div
+                        class="border-top pb-5 pt-6 py-md-4 text-center text-xl-start d-flex flex-column d-md-block d-xl-flex flex-xl-row align-items-center">
+                        <p class="font-size-sm-alone d-block mb-0 mb-md-2 mb-xl-0 order-1 order-md-0 px-9 px-md-0 "
+                            style="color: #ffffff;">Copyright © 2024 Coder Fusion. All Right Reserved.</p>
+                    </div>
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </footer>
+
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/%40fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="assets/libs/aos/dist/aos.js"></script>
+    <script src="assets/libs/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script src="assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/libs/isotope-layout/dist/isotope.pkgd.min.js"></script>
+    <script src="assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="assets/libs/parallax-js/dist/parallax.min.js"></script>
+    <script src="assets/libs/quill/dist/quill.min.js"></script>
+    <script src="assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="assets/libs/typed.js/lib/typed.min.js"></script>
+
+    <!-- Map -->
+    <script src='../../../api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/theme.min.js"></script>
+
+    <script>
+    let typed = new Typed(".auto-type", {
+        strings: ["Rahul Gaur", "Coding Mentor", "Coding Expert", "Code Maestro"],
+        typeSpeed: 80,
+        backSpeed: 80,
+        loop: true
+    })
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplayHoverPause:true,
+        autoplayTimeout: 4000,
+        autoplaySpeed: 4000,
+        slideTransition: 'linear',
+        dots: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+    </script>
+
+
+</body>
+
+<!-- Mirrored from transvelo.github.io/skola-html/5.1/home-v3.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Dec 2023 06:08:18 GMT -->
+
+</html>

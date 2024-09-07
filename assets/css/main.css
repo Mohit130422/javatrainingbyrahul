@@ -25355,7 +25355,7 @@ a:hover .hover-visible {
     width: 300px!important;
 }
 .mw-md-300p {
-    max-width: 300px!important;
+    max-width: 200px!important;
 }
 .vh-md-300p {
     height: 300pvh;
@@ -54315,7 +54315,8 @@ a:hover .hover-visible {
     width: 300px!important;
 }
 .mw-md-300p {
-    max-width: 300px!important;
+    width: auto !important;
+    padding: .5rem .75rem;
 }
 .vh-md-300p {
     height: 300pvh;
