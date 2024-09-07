@@ -41,7 +41,15 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <title>Code with Rahul</title>
-
+    <style>
+        /* Simple loading spinner */
+        #loading {
+            display: none;
+            text-align: center;
+            font-size: 7px;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -960,7 +968,7 @@
                     <img src="assets/img/contact-msg.png" alt="" width="100%" height="100%">
                 </div>
                 <div class="col-md">
-                    <form class="row" id="contactForm" action="phpmailer/send_mail.php" method="POST">
+                    <form class="row" id="contactForm">
                         <div class="form-group mb-6 col-xl-6">
                             <label for="name">Name</label>
                             <input type="text" class="form-control placeholder-1" id="name" name="name" 
@@ -984,12 +992,15 @@
                             <textarea class="form-control placeholder-1" id="message" rows="6" name="message" 
                                 placeholder="Type your Message" required></textarea>
                         </div>
-
+                        <div id="loading" class="spinner-border text-primary" role="status" style="display: none;">
+                            <span class="sr-only">Please wait...</span>
+                        </div>
+                        <div id="result" class="mt-4 mb-4"></div>
                         <div class="col-12 text-end">
                             <button type="submit" class="btn btn-primary btn-block">SEND</button>
                         </div>
                     </form>
-                    <div id="result" class="mt-4"></div>
+                    
                 </div>
             </div>
             <div class="row">
@@ -1146,6 +1157,40 @@
             }
         }
     })
+    $(document).ready(function(){
+        $("#contactForm").on("submit", function(event){
+                event.preventDefault(); // Prevent page refresh on form submit
+
+                 // Show the loading indicator
+                 $("#loading").show();
+
+                // Collect form data
+                var formData = {
+                    name: $("#name").val(),
+                    mobile: $("#mobile").val(),
+                    email: $("#email").val(),
+                    message: $("#message").val()
+                };
+
+                // Send the form data using AJAX
+                $.ajax({
+                    url: "phpmailer/send_mail.php", // Your PHP mail handler
+                    type: "POST",
+                    data: formData,
+                    success: function(response){
+                        // Hide the loading indicator
+                        $("#loading").hide();
+                        $("#result").html('<div class="alert alert-success text-center">Thank you for submitting your details! Our team will reach out to you shortly with further assistance.</div>');
+                        $('#contactForm').trigger('reset');
+                    },
+                    error: function(){
+                        // Hide the loading indicator
+                        $("#loading").hide();
+                        $("#result").html('<div class="alert alert-danger text-center">Oops!....There was an error sending the message.</div>');
+                    }
+                });
+            });
+    });
     </script>
 
 
